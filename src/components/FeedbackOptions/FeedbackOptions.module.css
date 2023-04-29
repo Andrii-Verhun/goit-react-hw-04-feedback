@@ -1,0 +1,22 @@
+.button {
+    padding: 5px 8px 5px 8px;
+    font-size: 18px;
+    cursor: pointer;
+    background: #98bde0;
+    border: 1px solid #76a6ce;
+    border-radius: 3px;
+    transition: all 300ms;
+}
+
+.button:hover {
+    border: 1px solid #197cec;
+    background: #669dd1
+}
+
+.button:not(:last-child) {
+    margin-right: 10px;
+}
+
+.button:first-letter {
+    text-transform: uppercase;
+}
