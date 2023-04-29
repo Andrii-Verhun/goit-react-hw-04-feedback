@@ -13,6 +13,10 @@
     background: #669dd1
 }
 
+.button:active {
+    background: #205688;
+}
+
 .button:not(:last-child) {
     margin-right: 10px;
 }
